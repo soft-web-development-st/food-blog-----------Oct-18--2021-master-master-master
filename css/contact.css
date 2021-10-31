@@ -1,0 +1,68 @@
+.contact-container-item-info h2 {
+    color: var(--dark-grey);
+}
+
+.contact-container-item-info p:first-of-type {
+    margin: 1rem 0;
+}
+
+.contact-form-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-template-areas: 
+        "name email subject"
+        "message message message";
+}
+
+.name {
+    grid-area: name;
+}
+  
+.email {
+    grid-area: email;
+}
+
+.subject {
+    grid-area: subject;
+}
+
+.message {
+    grid-area: message;
+}
+
+input, textarea {
+    border: 1px solid var(--theme-btn-grey);
+    color: var(--dark-grey);
+    font-family: var(--lato-font-family);
+}
+
+.contact-form-section input {
+    box-sizing: border-box;
+    padding: .95em 1.1500em;
+  }
+
+textarea {
+    padding: .9em 1.2500em;
+    resize: none;
+}
+
+.contact-form-section input::placeholder,
+.contact-form-section textarea::placeholder  {
+    font-size: .8rem;
+    font-family: var(--lato-font-family);
+    font-weight: lighter;
+    color: rgb(158, 152, 152);
+}
+
+.contact-form-control input[type='button'] {
+    background-color: var(--white);
+    padding: 1.55em 4.1500em;
+    margin-top: 1rem;
+}
+
+.contact-form-control input[type='button']:hover {
+    background-color: var(--theme-green);
+    border-color: var(--theme-green);
+    color: var(--white);
+}

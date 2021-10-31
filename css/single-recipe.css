@@ -1,0 +1,352 @@
+.single-recipe-contents-left-showcase {
+    padding-bottom: 1rem;
+}
+
+.single-recipe-contents-left-showcase img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.single-recipe-contents-left-showcase h2 {
+    text-align: center;
+}
+
+.single-recipe-contents-left-showcase h2 {
+    color: var(--dark-grey);
+}
+
+.beef-title {
+    text-align: center;
+}
+
+.single-recipe-contents-left-showcase p {
+    margin: .5rem 0 1rem 0;
+}
+
+.single-recipe-contents-left-showcase > p {
+    margin: .5rem 0 1rem 0;
+}
+
+.single-recipe-prep {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.single-recipe-prep span,
+.recipe-card-info-left span,
+.recipe-card-info-right span {
+    margin-right: .3rem;
+}
+
+.single-recipe-contents-left-showcase .linebreak {
+    margin: 1.3rem 0;
+}
+
+/* ======== 
+    RECIPE 
+   ======== */
+.recipe-card {
+    border: 1px solid var(--theme-linebreak-color);
+    padding: 1.5rem;
+}
+
+.recipe-card-info {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 1rem;
+}
+
+.recipe-card-info-right img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.recipe-card-info-left .recipe:not(:first-of-type) {
+    margin: 1.2rem 0;
+}
+
+.recipe-card-info-right button {
+    margin-top: .5rem;
+    display: block;
+    width: 100%;
+    background-color: var(--white);
+    color: var(--dark-grey);
+}
+
+.recipe-card-info-right button:hover {
+    background-color: var(--theme-green);
+    color: var(--white);
+    border: 1px solid var(--theme-green);
+}
+
+.ingredients span {
+    margin-right: 1.5rem;
+    color: var(--theme-green);
+    font-size: 1rem;
+}
+
+.ingredients .linebreak,
+.method .linebreak,
+.nutrition .linebreak {
+    margin: .5rem 0;
+    border-bottom: 1px solid var(--theme-grey-background);
+}
+
+.method-steps {
+    display: flex;
+    align-items: start;
+}
+
+.method-steps i {
+    margin-top: .3rem;
+    color: var(--theme-green)
+}
+
+.method-steps .step {
+    padding: 0 .5rem;
+}
+
+.ingredients,
+.method,
+.notes,
+.nutrition {
+    margin-top: 1rem;
+}
+
+.nutrition-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.social-media-links {
+    text-align: end;
+}
+
+.social-media-links-icons {
+    padding: 1rem 0;
+}
+
+.social-media-links .linebreak {
+    margin-top: 0;
+}
+
+.recipe-subscribe {
+    background-color: var(--theme-grey-background);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.recipe-subscribe .subscribe-form input[type='subscribe'] {
+    border: none;
+    background-color: var(--theme-green);
+    color: var(--white);
+    padding: 1em 1.7500em;
+    width: 40%;
+    text-align: center;
+}
+
+.recipe-subscribe .theme-p-paragrah {
+    width: 80%;
+    line-height: 1.1rem;
+}
+
+.lucy-thema-contents {
+    display: flex;
+    gap: 2rem;
+}
+
+.lucy-thema-contents img {
+    width: 100%;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: opacity(.85);
+}
+
+.you-may-like-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.you-may-like-card-item img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.you-may-like-card-item .theme-h2-main-title {
+    color: var(--dark-grey);
+}
+
+.you-may-like-card-item p {
+    margin: .5rem 0 1rem 0;
+}
+
+.you-may-like > h5,
+.comments-title {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.comments-container-item-all {
+    display: grid;
+    grid-template-columns: .5fr 3fr;
+    gap: 1rem;
+}
+
+.comments-container-item img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: opacity(.85);
+}
+
+.comments-container-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.comment-two {
+    margin-left: 4rem;
+}
+
+.comment-three {
+    margin-left: 8rem;
+}
+
+.comment-four {
+    margin-left: 12rem;
+}
+
+.comments-container-item-info p {
+    margin-bottom: .8rem;
+}
+
+/* Comment */
+.comment-checkbox {
+    margin: 1rem 0;
+}
+
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--lato-font-family);
+    font-size: .8rem;
+    color: var(--theme-font-grey);
+}
+
+.checkbox__input {
+    display: none;
+}
+
+.checkbox__box {
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid var(--theme-green);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .8rem;
+    flex-shrink: 0;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.checkbox__box::after {
+    content: '\2714';
+    color: var(--white);
+    transform: scale(0);
+    transition: transform 0.15s;
+}
+
+.checkbox__input:checked + .checkbox__box {
+    background-color: var(--theme-green);
+    border-color: var(--theme-green);
+}
+
+.checkbox__input:checked + .checkbox__box::after {
+    transform: scale(1);
+}
+
+.comment-form-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-template-areas: 
+        "comment comment comment"
+        "name email website";
+}
+
+.comment {
+    grid-area: comment;
+}
+
+.name {
+    grid-area: name;
+}
+  
+.email {
+    grid-area: email;
+}
+
+.website {
+    grid-area: website;
+}
+
+input, textarea {
+    border: 1px solid var(--theme-btn-grey);
+    color: var(--dark-grey);
+    font-family: var(--lato-font-family);
+}
+
+input {
+    box-sizing: border-box;
+    padding: .95em 1.1500em;
+  }
+
+textarea {
+    padding: .9em 1.2500em;
+    resize: none;
+}
+
+.comment-form-section input::placeholder,
+.comment-form-section textarea::placeholder  {
+    font-size: .8rem;
+    font-family: var(--lato-font-family);
+    font-weight: lighter;
+    color: rgb(158, 152, 152);
+}
+
+.comment-form-control input[type='button'] {
+    background-color: var(--white);
+    padding: 1.55em 4.1500em;
+    margin-top: 1rem;
+}
+
+.comment-form-control input[type='button']:hover {
+    background-color: var(--theme-green);
+    border-color: var(--theme-green);
+    color: var(--white);
+}
+
+.previous-recipe a {
+    padding: 1.55em 3.1500em;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+}
+
+.previous-recipe span {
+    color: var(--dark-grey);
+}
+
+

@@ -1,0 +1,98 @@
+.single-post-contents-left-showcase img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    margin: 1rem 0;
+}
+
+.single-post-contents-left-showcase h2,
+.single-post-contents-left-showcase p:first-of-type {
+    text-align:left;
+    margin: .5rem 0 1rem 0;
+}
+.single-post-contents-left-showcase p.title-p{
+   text-align: center;
+}
+
+.single-recipe-contents-left-showcase h2 {
+    color: var(--dark-grey);
+}
+
+.chocolate-date {
+    font-family: var(--lato-font-family);
+    color: var(--theme-font-grey);
+}
+
+
+.single-post-contents-left-showcase > p {
+    margin: .5rem 0 1rem 0;
+}
+
+.single-post-contents-left-showcase h2:last-of-type {
+    text-align: center;
+    color: var(--dark-grey);
+    margin-bottom: 1rem;
+}
+
+.seasonal-chocolate {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+
+.single-post-quote {
+    display: flex;
+    margin: 0 5rem 0 3rem;
+}
+
+.single-post-quote i {
+    color: var(--theme-green);
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.single-post-quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: .5rem;
+}
+
+.single-post-quote-content h4 {
+    font-family: var(--lato-font-family);
+    color: var(--theme-font-grey);
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.single-post-hot-chocolate-img img {
+    width: 100%;
+    height: 30rem;
+}
+
+.single-post-pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.single-post-pictures img {
+    width: 100%;
+    height: 30rem;
+    object-fit: contain;
+}
+
+.single-post-tags-social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single-post-social-icons {
+    display: flex;
+}
+
+.single-post-social-icons a {
+    margin: .5rem;
+}
